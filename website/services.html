@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="service.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-image: url('your_image_url_here.jpg');
+            background-size: cover;
+            background-position: left;
+            height: 300px;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            justify-content: left;
+            color: white;
+            text-align: left;
+            overflow: hidden; /* Ensures the background image does not overflow */
+        }
+        .header-overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            max-width: 80%;
+            position: relative;
+        }
+        .services-heading-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Place behind the text */
+        }
+        .services-heading-background img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .services-container {
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0; /* Remove default margin */
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="services-heading-background">
+            <img src="back.jpg" alt="Background Image">
+        </div>
+        <div class="header-overlay">
+            <h1>SERVICES</h1>
+        </div>
+    </div>
+    <div class="services-container">
+        <h2>We Offer</h2>
+        <p>The student-centric rental housing system integrates essential services like broadband, SIM services, banking, and electricity to provide a comprehensive living experience. High-speed broadband allows easy access to online resources, SIM services simplify connectivity, banking offers financial convenience, and reliable electricity ensures a conducive learning environment. This approach caters to the diverse needs of today's tech-savvy student population.</p>
+        <br>
+        <br>
+        <p>Services</p>
+        <p>"Electricity? SIM cards? Broadband? We've got the essentials covered. Your survival kit for student life!"</p>
+    </div>
+
+    <!-- OFFERINGS SECTION -->
+    <section id="services">
+      <div class="container">
+          <div class="row">
+              <div class="servicecard" id="electricity-card" onclick="window.location.href='electricity.html'">
+                  <h4 class="headerofcards"><i class="fa-regular fa-2x fa-lightbulb yellow"></i><br><br>Electricity</h4>
+              </div>
+              <div class="servicecard" id="sim-services-card" onclick="window.location.href='sims.html'">
+                  <h4 class="headerofcards"><i class="fa-solid fa-sim-card fa-2x yellow"></i><br><br>Sim Services</h4>
+              </div>
+              <div class="servicecard" id="broadband-card" onclick="window.location.href='broadband.html'">
+                  <h4 class="headerofcards"><i class="fa-solid fa-globe fa-2x blue"></i><br><br>Broadband </h4>
+              </div>
+              <div class="servicecard" id="bank-card" onclick="window.location.href='banking.html'">
+                  <h4 class="headerofcards"><i class="fa-solid fa-landmark fa-2x yellow"></i><br><br>Bank </h4>
+              </div>
+
+          </div>
+      </div>
+  </section>
+
+<br><br><br>
+
+    <footer>
+        <div class="footer-container">
+            <div class="subscribe">
+                <div class="logo">
+                    <img src="../images/logo-light.png" alt="">
+                    <h2>Do You Need Help With Anything?</h2>
+                    <p>Receive updates, hot deals, tutorials, discounts sent straight to your inbox every month</p>
+                </div>
+                <div class="input flex">
+                    <input type="text" placeholder="Email Address">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-columns">
+                <div class="box">
+                    <h3>LAYOUTS</h3>
+                    <ul>
+                        <li>Home Page</li>
+                        <li>About Page</li>
+                        <li>Service Page</li>
+                        <li>Property Page</li>
+                        <li>Contact Page</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>ALL SECTIONS</h3>
+                    <ul>
+                        <li>Headers</li>
+                        <li>Features</li>
+                        <li>Reviews</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>COMPANY</h3>
+                    <ul>
+                        <li>About</li>
+                        <li>Search</li>
+                        <li>Pricing</li>
+                        <li>Affiliate</li>
+                        <li>Login</li>
+                    </ul>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.google.com"><img src="google.png" alt="Google"></a>
+                    <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com"><img src="instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

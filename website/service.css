@@ -1,0 +1,134 @@
+/* Style for the offerings section */
+
+
+
+
+
+
+.headerofcards {
+    font-size: 24px;
+    color: #333;
+}
+
+
+
+.servicecard
+{
+  width:15rem;
+  height:12rem;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: inline-block;
+  margin: 0.5% 3% 0.5% 3%;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.servicecard:hover
+{
+  transform: scale(1.15);
+}
+
+/* Styling the footer container */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling the subscribe section */
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #555; /* Add a border */
+    padding-bottom: 20px; /* Add padding to separate elements */
+}
+
+.logo img {
+    width: 150px;
+    margin-right: 20px; /* Add space between logo and text */
+}
+
+/* Styling the input and button */
+.input input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: #444; /* Darker background color */
+    color: #fff;
+}
+
+.input button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.input button:hover {
+    background-color: #45a049;
+}
+
+/* Styling the footer columns */
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    padding: 0 20px;
+}
+
+/* Styling the lists */
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/* Styling the social icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}

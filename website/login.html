@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #fff;
+            padding: 20px; /* Increased padding for better spacing */
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            min-width: 800px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            min-height: 650px;
+        }
+
+        .login-image {
+            flex: 1;
+            padding-right: 20px; /* Increased padding for better spacing */
+        }
+
+        .login-form {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-container img {
+            max-width: 130%; /* Adjusted image size */
+            height: auto;
+            border-radius: 4%;
+            min-height: 101%;
+        }
+
+        input[type="email"],
+        input[type="password"],
+        input[type="submit"],
+        .login-options a {
+            width: 100%;
+            padding: 15px; /* Increased padding for better touch targets */
+            margin: 10px 0; /* Increased margin for better spacing */
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            box-sizing: border-box;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"] {
+            background-color: #2b8461;
+            color: white;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1e5e40; /* Darker hover color */
+        }
+
+        .login-options {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Adjustments for icons */
+        .login-options {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            size: 30px;
+        }
+
+        .login-options a {
+            margin: 8px;
+            text-decoration: none;
+        }
+
+        .login-options a img {
+            width: 40px; /* Decreased size of the icons */
+            height: 40px;
+        }
+
+        .login-options a:hover {
+            background-color: #696969;
+        }
+
+        h2 {
+            font-size: 24px; /* Increased font size for heading */
+            margin-bottom: 20px; /* Added margin for better spacing */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="login-image">
+                <img src="see.png" alt="Your Image">
+            </div>
+            <div class="login-form">
+                <h1>Login</h1>
+                <p>"Unlock your ideal student living experience – log in to your hassle-free housing journey with us."</p>
+                <form action="#">
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="submit" value="Login">
+                </form>
+                <div class="login-options">
+                    <a href="#"><img src="google.png" alt="Login with Google"></a>
+                    <a href="#"><img src="facebook.png" alt="Login with Facebook"></a>
+                </div>
+                <p>Don't have an account? <a href="registration.html">Register</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

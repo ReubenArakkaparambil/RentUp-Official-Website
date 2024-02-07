@@ -1,0 +1,33 @@
+#footer .oof {
+    color: white;
+}
+
+#footer h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#footer input[type="email"],
+#footer button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#footer button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+#footer button:hover {
+    background-color: #0056b3;
+}
+
+#footer .finalending {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
